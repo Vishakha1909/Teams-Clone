@@ -8,8 +8,18 @@
     display: flex;
     flex-direction: column;
 }
+.nav-bar {
+    background-color:#3f406d
+    ;
+}
 .nav-header {
+    background-color: #242324;
     color: white;
+    text-align: center;
+}
+.nav-options {
+    background-color: #242324;
+    color:white;
 }
 .main__right {
     flex: 0.2
@@ -25,11 +35,12 @@
 }
 
 .main__controls {
-    background-color: #3c3d63;
+    background-color: #494b83;
+    border-color: #343434;
 }
 
 .main__right {
-    background-color: #25263f;
+    background-color: #242324;
     border-left: 1px solid #3D3D42;
 }
 

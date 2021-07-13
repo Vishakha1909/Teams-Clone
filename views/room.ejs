@@ -31,19 +31,41 @@
 </head>
 <body>
    <div class="main">
-      <div class="main__left">
-         <div class="nav-bar">
-            <div class="nav-header">TEAMS</div>
-            <div class="nav-options">
-               
+      <div class="nav-bar">
+         <div class="nav-header">TEAMS</div>
+         <div class="nav-options">
+            <br>
+            <div onclick="muteUnmute()" class="main__controls__button main__mute_button">
+               <i class="fas fa-user"></i>
+               <span>ACCOUNT</span>
+            </div><br>
+            <div onclick="muteUnmute()" class="main__controls__button main__mute_button">
+               <i class="fas fa-bell"></i>
+               <span>ACTIVITY</span>
+            </div><br>
+            <div onclick="muteUnmute()" class="main__controls__button main__mute_button">
+               <i class="fa fa-comments-o" aria-hidden="true"></i>
+               <span>CHAT</span>
             </div>
+            <br>
+            <div onclick="muteUnmute()" class="main__controls__button main__mute_button">
+               <i class="fas fa-file"></i>
+               <span>FILES</span>
+            </div>
+            
          </div>
+      </div>
+      <div class="main__left">
          <div class="main__videos">
             <div id="video-grid">
       
             </div>
          </div>
          <div class="main__controls">
+            <div class="main__controls__block">
+               
+               
+            </div>
             <div class="main__controls__block">
                <div onclick="muteUnmute()" class="main__controls__button main__mute_button">
                   <i class="fas fa-microphone"></i>
@@ -52,12 +74,6 @@
                <div onclick="playStop()" class="main__controls__button main__video_button" >
                   <i class="fas fa-video"></i>
                   <span>Stop Video</span>
-               </div>
-            </div>
-            <div class="main__controls__block">
-               <div class="main__controls__button">
-                  <i class="fas fa-shield-alt"></i>
-                  <span>Security</span>
                </div>
                <div class="main__controls__button">
                   <i class="fas fa-user-friends"></i>
@@ -70,7 +86,7 @@
             </div>
             <div class="main__controls__block">
                <div class="main__controls__button">
-                  <span class="leave_meeting">Leave Meeting</span>
+                  <span class="leave_meeting">Leave</span>
                </div>
             </div>
          </div>
